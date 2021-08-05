@@ -17,8 +17,25 @@
 html{
   font-size: 15px;
 }
-h1{
-  color:var(--clr-Bright-orange orange);
+h3{
+  font-size: 2rem;
+  font-family: 'Big Shoulders Display',cursive;
+  text-transform: uppercase;
+
+}
+
+p{
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+
+.container{
+  padding: 20px;
+}
+.card{
+  padding: 30px;
 }
 
 
@@ -26,4 +43,76 @@ body{
   font-family: 'Lexend Deca', sans-serif;
   font-family: 'Big Shoulders Display', cursive;
   color:var(--clr-Bright-orange orange);
+}
+
+.orange{
+  background-color: #e38826;
+}
+
+.darkcyan{
+  background-color: darkcyan;
+}
+
+.very-darkcyan{
+  background-color: var(--clr-Very-dark-cyan);
+  border-radius:0 0 10px 10px;
+}
+
+.sedan{
+  background-color: var(--clr-Transparent-white);
+ border: 2px solid var(--clr-Transparent-white);
+ border-radius: 2rem;
+ padding: 20px 30px;
+ cursor: pointer;
+ transition: all 0.4s ease;
+}
+
+.SUV{
+  background-color: var(--clr-Transparent-white);
+ border: 2px solid var(--clr-Transparent-white);
+ border-radius: 2rem;
+ padding: 20px 30px;
+ cursor: pointer;
+ transition: all 0.4s ease;
+}
+
+.Luxury{
+  background-color: var(--clr-Transparent-white);
+  border: 2px solid var(--clr-Transparent-white);
+  border-radius: 2rem;
+  padding: 20px 30px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+ }
+
+ .sedan{
+   color: var(--clr-Bright-orange);
+ }
+ .SUV{
+   color: var(--clr-Dark-cyan);
+ }
+ .Luxury{
+   color: var(--clr-Very-dark-cyan);
+ }
+
+
+
+@media (min-width:991px){
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 900px ;
+    margin: auto;
+
+
+  }
+}
+
+.orange{
+  border-radius: 10px 0 0 10px;
+}
+.very-darkcyan{
+  border-radius: 0 10px 10px 0;
 }
